@@ -1,0 +1,32 @@
+<rdf:RDF xml:lang="en"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+
+
+<rdfs:Class ID="Course"/>
+
+<rdfs:Property ID="TitleCourse">
+  <rdfs:domain rdf:resource="#Course"/>
+</rdfs:Property>
+
+<rdfs:Property ID="CodeCourse">
+  <rdfs:domain rdf:resource="#Course"/>
+</rdfs:Property>
+
+<rdfs:Property ID="OfDepartment">
+  <rdfs:domain rdf:resource="#Course"/>
+</rdfs:Property>
+  
+<rdfs:Property ID="LevelOfDegree">
+  <rdfs:domain rdf:resource="#Course"/>
+</rdfs:Property>
+
+<rdfs:Property ID="KindOfDegree">
+  <rdfs:domain rdf:resource="#Course"/>
+</rdfs:Property>
+
+
+<rdfs:Property ID="YearCourse">
+  <rdfs:domain rdf:resource="#Course"/>
+</rdfs:Property>

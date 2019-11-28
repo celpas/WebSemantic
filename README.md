@@ -1,2 +1,0 @@
-# WebSemantic
-Created with CodeSandbox
