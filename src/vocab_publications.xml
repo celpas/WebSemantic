@@ -1,0 +1,27 @@
+<rdf:RDF xml:lang="en"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+<rdfs:Class rdf:ID="Publication"/>
+
+<rdfs:Property rdf:ID="TitleCourse">
+  <rdfs:domain rdf:resource="#Publication"/>
+</rdfs:Property>
+
+<rdfs:Property rdf:ID="TitleCourse">
+  <rdfs:domain rdf:resource="#Publication"/>
+</rdfs:Property>
+
+<rdfs:Property rdf:ID="TitleCourse">
+  <rdfs:domain rdf:resource="#Publication"/>
+</rdfs:Property>
+
+<rdfs:Property rdf:ID="TitleCourse">
+  <rdfs:domain rdf:resource="#Publication"/>
+</rdfs:Property>
+
+<rdfs:Property rdf:ID="TitleCourse">
+  <rdfs:domain rdf:resource="#Publication"/>
+</rdfs:Property>
+
+</rdf:RDF>

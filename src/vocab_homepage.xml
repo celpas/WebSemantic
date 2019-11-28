@@ -2,21 +2,21 @@
          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
 
-<rdfs:Class ID="Office"/>
+<rdfs:Class rdf:ID="Office"/>
 
-<rdfs:Property ID="CampusLocation">
+<rdfs:Property rdf:ID="CampusLocation">
   <rdfs:domain rdf:resource="#Office"/>
 </rdfs:Property>
 
-<rdfs:Property ID="LocatedInBuilding">
+<rdfs:Property rdf:rdf:ID="LocatedInBuilding">
   <rdfs:domain rdf:resource="#Office"/>
 </rdfs:Property>
 
-<rdfs:Property ID="AtFloor">
+<rdfs:Properdf:rty rdf:ID="AtFloor">
   <rdfs:domain rdf:resource="#Office"/>
 </rdfs:Property >
 
-<rdfs:Property ID="RoomNumber">
+<rdfs:Prdf:roperty rdf:ID="RoomNumber">
   <rdfs:domain rdf:resource="#Office"/>
 </rdfs:Property>
 
@@ -25,21 +25,21 @@
 
 
 
-<rdfs:Class ID="OfficeHours"/>
+rdf:<rdfs:Class ID="OfficeHours"/>
 
-<rdfs:Property ID="DayOfWeek">
+<rdrdf:fs:Property ID="DayOfWeek">
 <rdfs:domain rdf:resource="#OfficeHours"/>
 </rdfs:Property>
 
-<rdfs:Property ID="OpeningHour">
+<rdrdf:fs:Property ID="OpeningHour">
 <rdfs:domain rdf:resource="#OfficeHours"/>
 </rdfs:Property>
 
-<rdfs:Property ID="ClosingHour">
+<rdrdf:fs:Property ID="ClosingHour">
 <rdfs:domain rdf:resource="#OfficeHours"/>
 </rdfs:Property>
     
-<rdfs:Property ID="OfficeLocation">
+<rdrdf:fs:Property ID="OfficeLocation">
 <rdfs:domain rdf:resource="#OfficeHours"/>
 </rdfs:Property>
 
